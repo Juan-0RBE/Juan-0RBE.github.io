@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
         alt: 'Ethan Donovan'
     },
     title: 'Juan Andrés Orjuela Bello',
-    subtitle: 'Passionate Web Developer & Designer :) JAJAJAJ',
+    subtitle: 'Current Systems Engineering Student',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -28,9 +28,17 @@ const siteConfig: SiteConfig = {
             text: 'Blog',
             href: '/blog'
         },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // },
         {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Evidencias',
+            href: '/evidencia'
+        },
+        {
+            text: 'Presentacion',
+            href: '/presentacion'
         }
     ],
     footerNavLinks: [
@@ -38,55 +46,55 @@ const siteConfig: SiteConfig = {
             text: 'About',
             href: '/about'
         },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // },
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
         {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
+            text: 'The theme I used',
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
+        // {
+        //     text: 'Instagram',
+        //     href: 'https://instagram.com/'
+        // },
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'GitHub',
+            href: 'https://github.com/Juan-0RBE'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Hi There, let me introduce myself.',
+        text: "My name is Juan Andrés Orjuela Bello, and I am currently studying Systems Engineering at El Bosque University, with a particular interest in programming. My current skills have enabled me to develop programs in Java and web applications. I am very interested in learning about new technologies as I progress in my studies. \n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/Juan-0RBE?tab=repositories).",
         image: {
             src: hero,
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
-            {
-                text: 'Get in Touch',
-                href: '/contact'
-            }
+            // {
+            //     text: 'Get in Touch',
+            //     href: '/contact'
+            // }
         ]
     },
-    subscribe: {
-        enabled: true,
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        form: {
-            action: '#'
-        }
-    },
+    // subscribe: {
+    //     enabled: true,
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     form: {
+    //         action: '#'
+    //     }
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };

@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Presentación" description="Video de presentación personal">
+    <section class="mx-auto max-w-4xl px-4 py-16">
+        <h1 class="mb-8 font-serif text-3xl">Presentación</h1>
+
+        <!-- Avatar -->
+        <div class="mb-8"></div>
+
+        <!-- Video embebido (YouTube ejemplo) -->
+        <div class="mb-8 aspect-video">
+            <iframe class="h-full w-full rounded-lg" src="https://www.youtube.com/embed/VIDEO_ID" title="Video de presentación" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- Texto opcional -->
+        <p>En este video presento mi perfil académico y profesional, así como mis intereses en programación y desarrollo web.</p>
+    </section>
+</BaseLayout>

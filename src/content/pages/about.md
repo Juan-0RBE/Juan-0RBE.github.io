@@ -10,34 +10,26 @@ seo:
 
 ![Alt text for image](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Juan Andrés Orjuela Bello - Systems Engineering Student
 
-## Ethan Donovan - Web Developer based in Estonia
-
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Hi there!** Hello! I'm Ethan Donovan, a passionate student living in the beautiful town of [Sibaté](https://es.wikipedia.org/wiki/Sibaté). With a strong understanding of logic development and a love for creating seamless digital experiences, I bring great enthusiasm to maintaining clean code for web pages.
 
 ## Skills and Expertise
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+I specialize in back-end development, utilizing all the technologies that i've been learning yet and user-friendly websites. My proficiency includes **HTML**, **CSS**, **Java**, and frameworks such as **Angular** for dynamic and interactive user interfaces. On the server side I'm a beginner, with knowledge of **MySQL** .
 
 ## Innovation and Problem-Solving
 
 I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
 
-## Global Perspective, Local Impact
-
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
-
 ## Continuous Learning
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+The dynamic nature of the technology industry inspires me to keep learning at university. I am always eager to expand my skills and adopt the technologies I learn about in the projects I create.
 
 ## Collaboration and Communication
 
 I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
 
-## Get in Touch
+## Interest in programming
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_
+I am currently a member of my university's competitive programming group, seeking to greatly improve my programming skills. My goal is to one day participate in international competitions that will help me grow as a future professional.
