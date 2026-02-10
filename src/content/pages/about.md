@@ -3,16 +3,15 @@ title: About
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
-  image:
-    src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+  #image:
+  #  src: '../../assets/images/about.jpg'
+  #  alt: A person sitting at a desk in front of a computer
+#![Alt text for image](../../assets/images/about.jpg) ESTO VA ABAJO DE LA LINEA
 ---
-
-![Alt text for image](../../assets/images/about.jpg)
 
 ## Juan Andrés Orjuela Bello - Systems Engineering Student
 
-**Hi there!** Hello! I'm Ethan Donovan, a passionate student living in the beautiful town of [Sibaté](https://es.wikipedia.org/wiki/Sibaté). With a strong understanding of logic development and a love for creating seamless digital experiences, I bring great enthusiasm to maintaining clean code for web pages.
+**Hi there!** Hello! I'm Juan Andrés Orjuela Bello, a passionate student living in the beautiful town of [Sibaté](https://es.wikipedia.org/wiki/Sibaté). With a strong understanding of logic development and a love for creating seamless digital experiences, I bring great enthusiasm to maintaining clean code for web pages.
 
 ## Skills and Expertise
 

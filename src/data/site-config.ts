@@ -1,20 +1,19 @@
-import avatar from '../assets/images/avatar.jpg';
-import hero from '../assets/images/hero.jpg';
+import avatar from '../assets/images/avatarJ.jpeg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Juan OB'
     },
     title: 'Juan Andrés Orjuela Bello',
     subtitle: 'Current Systems Engineering Student',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
+    // image: {
+    //     src: '/dante-preview.jpg',
+    //     alt: 'Dante - Astro.js and Tailwind CSS theme'
+    // },
     headerNavLinks: [
         {
             text: 'Home',
@@ -33,11 +32,11 @@ const siteConfig: SiteConfig = {
         //     href: '/tags'
         // },
         {
-            text: 'Evidencias',
+            text: 'Evidences',
             href: '/evidencia'
         },
         {
-            text: 'Presentacion',
+            text: 'Presentation',
             href: '/presentacion'
         }
     ],
@@ -76,10 +75,10 @@ const siteConfig: SiteConfig = {
     hero: {
         title: 'Hi There, let me introduce myself.',
         text: "My name is Juan Andrés Orjuela Bello, and I am currently studying Systems Engineering at El Bosque University, with a particular interest in programming. My current skills have enabled me to develop programs in Java and web applications. I am very interested in learning about new technologies as I progress in my studies. \n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/Juan-0RBE?tab=repositories).",
-        image: {
-            src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
-        },
+        // image: {
+        //     src: hero,
+        //     alt: 'A person sitting at a desk in front of a computer'
+        // },
         actions: [
             // {
             //     text: 'Get in Touch',
