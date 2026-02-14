@@ -10,14 +10,14 @@ const titleClass = 'text-theme-foreground font-serif text-2xl leading-tight font
         siteConfig.avatar?.src && (
             <a href="/">
                 <CustomImage
-                    class="aspect-square w-16 rounded-full object-cover sm:w-20"
+                    class="aspect-square w-32 rounded-full object-cover sm:w-40 md:w-48"
                     {...siteConfig.avatar}
                     loading="eager"
                     fetchpriority="high"
-                    width={80}
-                    height={80}
-                    widths={[80, 160]}
-                    sizes="80px"
+                    width={192}
+                    height={192}
+                    widths={[192, 384]}
+                    sizes="192px"
                 />
             </a>
         )
