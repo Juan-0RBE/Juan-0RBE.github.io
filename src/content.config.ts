@@ -50,4 +50,16 @@ const projects = defineCollection({
         })
 });
 
-export const collections = { blog, pages, projects };
+const evidencias = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/evidencias' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string(),
+      publishDate: z.coerce.date().optional(),
+      seo: seoSchema(image).optional()
+    })
+});
+
+
+export const collections = { blog, pages, projects, evidencias };

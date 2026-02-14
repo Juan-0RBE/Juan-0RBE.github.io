@@ -1,0 +1,52 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+    const evidencias = await getCollection('evidencias');
+
+    return evidencias.map((item) => ({
+        params: { id: item.id },
+        props: { item }
+    }));
+}
+
+type Props = {
+    item: CollectionEntry<'evidencias'>;
+};
+
+const { item } = Astro.props;
+const { title, description, seo } = item.data;
+const { Content } = await render(item);
+---
+
+<BaseLayout title={seo?.title ?? title} description={seo?.description ?? description} image={seo?.image} pageType="article">
+    <article class="prose max-w-none">
+        <h1>{title}</h1>
+        <Content />
+    </article>
+</BaseLayout>
+
+<!-- ---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+    const evidencias = await getCollection('evidencias');
+
+    return evidencias.map((item) => ({
+        params: { id: item.id },
+        props: { item }
+    }));
+}
+
+const { item } = Astro.props;
+const { Content } = await render(item);
+---
+
+<BaseLayout title={item.data.title} description={item.data.description}>
+    <article class="prose max-w-none">
+        <h1>{item.data.title}</h1>
+        <Content />
+    </article>
+</BaseLayout> -->

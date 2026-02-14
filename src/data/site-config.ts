@@ -19,21 +19,21 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
-        {
-            text: 'Blog',
-            href: '/blog'
-        },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
         // {
         //     text: 'Tags',
         //     href: '/tags'
         // },
         {
             text: 'Evidences',
-            href: '/evidencia'
+            href: '/evidencias'
         },
         {
             text: 'Presentation',

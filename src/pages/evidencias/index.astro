@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+const evidencias = (await getCollection('evidencias')).sort(sortItemsByDateDesc);
+---
+
+<BaseLayout title="Evidencias" description="Evidencias académicas">
+    <h1 class="mb-12 font-serif text-2xl sm:text-4xl">Evidencias</h1>
+
+    <ul class="space-y-6">
+        {
+            evidencias.map((item) => (
+                <li>
+                    <a href={`/evidencias/${item.id}`} class="text-main text-lg hover:underline">
+                        {item.data.title}
+                    </a>
+                    <p class="text-sm opacity-70">{item.data.description}</p>
+                </li>
+            ))
+        }
+    </ul>
+</BaseLayout>
