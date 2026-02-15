@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'Sobre mi',
+            text: 'Sobre mí',
             href: '/about'
         },
         // {
