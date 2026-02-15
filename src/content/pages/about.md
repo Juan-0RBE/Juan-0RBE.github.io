@@ -1,5 +1,5 @@
 ---
-title: About
+title: Sobre mi
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
@@ -9,18 +9,18 @@ seo:
 #![Alt text for image](../../assets/images/about.jpg) ESTO VA ABAJO DE LA LINEA
 ---
 
-## Juan Andrés Orjuela Bello - Systems Engineering Student
+## Juan Andrés Orjuela Bello - Estudiante de Ingeniería de Sistemas
 
-**Hi there!** Hello! I'm Juan Andrés Orjuela Bello, a passionate student living in the beautiful town of [Sibaté](https://es.wikipedia.org/wiki/Sibaté). With a strong understanding of logic development and a love for creating seamless digital experiences, I bring great enthusiasm to maintaining clean code for web pages.
+**¡Hola!** Soy Juan Andrés Orjuela Bello, un estudiante apasionado que vive en el hermoso pueblo de [Sibaté](https://es.wikipedia.org/wiki/Sibaté). Con un profundo conocimiento del desarrollo lógico y una gran afición por crear experiencias digitales fluidas, aporto un gran entusiasmo al mantenimiento de un código limpio para páginas web.
 
-## Skills and Expertise
+## Habilidades y experiencia
 
-I specialize in back-end development, utilizing all the technologies that i've been learning yet and user-friendly websites. My proficiency includes **HTML**, **CSS**, **Java**, and frameworks such as **Angular** for dynamic and interactive user interfaces. On the server side I'm a beginner, with knowledge of **MySQL** .
+Me especializo en el desarrollo back-end y tengo conocimientos de front-end, utilizando todas las tecnologías que he aprendido hasta ahora. Mis conocimientos incluyen **HTML**, **CSS**, **Java** y frameworks como **Angular** para interfaces de usuario dinámicas e interactivas. En cuanto al lado de las bases de datos, soy principiante, con conocimientos de **MySQL** .
 
-## Continuous Learning
+## Aprendizaje continuo
 
-The dynamic nature of the technology industry inspires me to keep learning at university. I'm always eager to expand my skills and adopt the technologies I learn about in the projects I create.
+La naturaleza dinámica de la industria tecnológica me inspira a seguir aprendiendo en la universidad. Siempre estoy deseando ampliar mis habilidades y adoptar las tecnologías que aprendo en los proyectos que llevo a cabo.
 
-## Interest in programming
+## Interés por la programación
 
-I'm currently a member of my university's competitive programming group, seeking to greatly improve my programming skills. My goal is to one day participate in international competitions that will help me grow as a future professional.
+Actualmente soy miembro del grupo de programación competitiva de mi universidad, con el objetivo de mejorar considerablemente mis habilidades de programación. Mi meta es participar algún día en competiciones internacionales que me ayuden a crecer como futuro profesional.

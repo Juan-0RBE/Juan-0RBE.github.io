@@ -8,7 +8,7 @@ const siteConfig: SiteConfig = {
         alt: 'Juan OB'
     },
     title: 'Juan Andrés Orjuela Bello',
-    subtitle: 'Current Systems Engineering Student',
+    subtitle: 'Actual estudiante de Ingeniería de Sistemas',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     // image: {
     //     src: '/dante-preview.jpg',
@@ -16,7 +16,7 @@ const siteConfig: SiteConfig = {
     // },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Página principal',
             href: '/'
         },
         // {
@@ -32,17 +32,17 @@ const siteConfig: SiteConfig = {
         //     href: '/tags'
         // },
         {
-            text: 'Evidences',
+            text: 'Evidencias',
             href: '/evidencias'
         },
         {
-            text: 'Presentation',
+            text: 'Presentación',
             href: '/presentacion'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Sobre mi',
             href: '/about'
         },
         // {
@@ -54,7 +54,7 @@ const siteConfig: SiteConfig = {
         //     href: '/terms'
         // },
         {
-            text: 'The theme I used',
+            text: 'El tema que usé',
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
@@ -73,8 +73,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There, let me introduce myself.',
-        text: "My name is Juan Andrés Orjuela Bello, and I am currently studying Systems Engineering at El Bosque University, with a particular interest in programming. My current skills have enabled me to develop programs in Java and web applications. I am very interested in learning about new technologies as I progress in my studies. \n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/Juan-0RBE?tab=repositories).",
+        title: 'Hola, permíteme presentarme.',
+        text: "Mi nombre es Juan Andrés Orjuela Bello y actualmente estudio Ingeniería de Sistemas en la Universidad El Bosque, con un interés particular en la programación. Mis habilidades actuales me han permitido desarrollar programas en Java y aplicaciones web. Tengo mucho interés en aprender sobre nuevas tecnologías a medida que avanzo en mis estudios. \n\nNo dudes en explorar algunos de mis proyectos de programación en [GitHub](https://github.com/Juan-0RBE?tab=repositories).",
         // image: {
         //     src: hero,
         //     alt: 'A person sitting at a desk in front of a computer'
