@@ -25,3 +25,15 @@ publishDate: '2026-02-14'
 ### Solución
 
 ![Hospital](../../assets/images/ModeloHospital.jpeg)
+
+## Ejercicio "University Champions League"
+
+El equipo organizador de la University Champions League de la Universidad El Bosque, requiere un
+sistema de información que almacene las estadísticas del torneo de fútbol que se llevará a cabo en el mes de
+Abril. Por consiguiente, la información que se requiere consultar está relacionada a los equipos de fútbol, los
+semestres, los programas académicos al que pertenece, información de cada jugador, puntos obtenidos en cada
+juego, tarjetas amarillas/rojas por cada jugador y las posiciones de la tabla en tiempo real.
+
+### Solución
+
+![Champions](../../assets/images/ModeloChampions.jpeg)
