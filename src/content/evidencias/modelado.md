@@ -385,7 +385,7 @@ En base al siguiente esquema, crear un modelo E-R:
 
 ### Solución
 
-### MERE
+## Modelo Entidad Relación Extendido con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Nómina - MERE.jpeg" target="_blank">
@@ -397,12 +397,36 @@ En base al siguiente esquema, crear un modelo E-R:
   </a>
 </div>
 
-## MER
+## Modelo Entidad Relación con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Nómina - MER.jpeg" target="_blank">
     <img 
       src="/images/Nómina - MER.jpeg"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Entidad Relación con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Nomina_MER_CF.png" target="_blank">
+    <img 
+      src="/images/Nomina_MER_CF.png"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Relacional con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Nomina_MR.png" target="_blank">
+    <img 
+      src="/images/Nomina_MR.png"
       width="700"
       style="border-radius:12px;"
     />
@@ -433,7 +457,7 @@ SUPUESTO 9: Es interesante conocer la fecha de llegada a destino y el tratamient
 
 ### Solución
 
-### MERE
+## Modelo Entidad Relación Extendido con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Residuos Tóxicos - MERE_CORREGIDO.jpeg" target="_blank">
@@ -445,12 +469,36 @@ SUPUESTO 9: Es interesante conocer la fecha de llegada a destino y el tratamient
   </a>
 </div>
 
-## MER
+## Modelo Entidad Relación con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Residuos Tóxicos - MER_CORREGIDO.jpeg" target="_blank">
     <img 
       src="/images/Residuos Tóxicos - MER_CORREGIDO.jpeg"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Entidad Relación con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Residuos_Toxicos_MER_CF.png" target="_blank">
+    <img 
+      src="/images/Residuos_Toxicos_MER_CF.png"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Relacional con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Residuos_Toxicos_MR.png" target="_blank">
+    <img 
+      src="/images/Residuos_Toxicos_MR.png"
       width="700"
       style="border-radius:12px;"
     />
@@ -499,7 +547,7 @@ SUPUESTO 18: La empresa cuenta con una serie de pizzas y bocadillos "estrellas",
 
 ### Solución
 
-### MERE
+## Modelo Entidad Relación Extendido con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Eat'n Go - MERE_CORREGIDO.jpeg" target="_blank">
@@ -511,12 +559,36 @@ SUPUESTO 18: La empresa cuenta con una serie de pizzas y bocadillos "estrellas",
   </a>
 </div>
 
-## MER
+## Modelo Entidad Relación con notación Peter – Chen
 
 <div style="text-align:center;">
   <a href="/images/Eat'n Go - MER_CORREGIDO.jpeg" target="_blank">
     <img 
       src="/images/Eat'n Go - MER_CORREGIDO.jpeg"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Entidad Relación con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Eat_NGo_MER_CF.png" target="_blank">
+    <img 
+      src="/images/Eat_NGo_MER_CF.png"
+      width="700"
+      style="border-radius:12px;"
+    />
+  </a>
+</div>
+
+## Modelo Relacional con notación Barker
+
+<div style="text-align:center;">
+  <a href="/images/Eat_NGo_MR.png" target="_blank">
+    <img 
+      src="/images/Eat_NGo_MR.png"
       width="700"
       style="border-radius:12px;"
     />

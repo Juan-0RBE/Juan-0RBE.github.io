@@ -11,11 +11,11 @@ publishDate: '2026-02-14'
 
 El presente taller de normalización tiene como propósito reforzar y aplicar los conceptos fundamentales relacionados con el proceso de diseño lógico de bases de datos. A lo largo de la actividad se abordan ejercicios enfocados en la identificación de dependencias funcionales, análisis de redundancias, reconocimiento de anomalías y descomposición de relaciones hasta alcanzar distintas formas normales, incluyendo 1FN, 2FN, 3FN y BCNF. Asimismo, el taller permite comprender la relación existente entre un adecuado modelado Entidad–Relación y el proceso de normalización, destacando la importancia de estructurar bases de datos consistentes, eficientes y libres de inconsistencias.
 
-[Ver PDF del taller](/pdf/Taller_Normalizacion_Repaso.pdf)
+-> [Ver PDF del taller](/pdf/Taller_Normalizacion_Repaso.pdf)
 
 ### Solución
 
-[-> Descargar archivo Excel con la solución](/excel/Taller_Normalizacion.xlsx)
+-> [Descargar archivo Excel con la solución del taller](/excel/Taller_Normalizacion.xlsx)
 
 ## Taller avanzado de normalización
 
@@ -23,10 +23,10 @@ El presente taller avanzado de normalización tiene como objetivo profundizar en
 
 Asimismo, el taller permite aplicar de manera formal el proceso de transición entre 1FN, 2FN y 3FN, justificando cada descomposición y garantizando la preservación de dependencias y la integridad de los datos. El desarrollo de estas actividades contribuye al fortalecimiento de las habilidades de diseño lógico de bases de datos y a la comprensión de problemas reales asociados al almacenamiento y organización de información en sistemas complejos.
 
-[-> Ver PDF del taller](/pdf/Taller_Avanzado_Normalizacion_A.pdf)
+-> [Ver PDF del taller](/pdf/Taller_Avanzado_Normalizacion_A.pdf)
 
 ### Solución
 
-[-> Ver PDF del taller](/pdf/Taller_Avanzado_De_Normalizacion_Solucion.pdf)
+-> [Ver PDF de la solución del taller](/pdf/Taller_Avanzado_De_Normalizacion_Solucion.pdf)
 
-[-> Descargar archivo Excel con la solución](/excel/Taller_Avanzado_Normalizacion_CORRECCION.xlsx)
+-> [Descargar archivo Excel con la solución del taller](/excel/Taller_Avanzado_Normalizacion_CORRECCION.xlsx)
