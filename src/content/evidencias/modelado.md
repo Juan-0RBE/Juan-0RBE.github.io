@@ -14,20 +14,20 @@ En caso de no poder visualizar con claridad los modelos ¡puedes hacer click en 
 
 # Taller Modelo Entidad Relación 1
 
+- [Ejercicio 1: Transporte](#ejercicio-1-transporte)
+- [Ejercicio 2: Bienes Raíces](#ejercicio-2-bienes-raíces)
+- [Ejercicio 3: Proveedor](#ejercicio-3-proveedor)
+- [Ejercicio 4: Biblioteca](#ejercicio-4-biblioteca)
+- [Ejercicio 5: Supermercado](#ejercicio-5-supermercado)
+- [Ejercicio 6: Banco](#ejercicio-6-banco)
+- [Ejercicio 7: Oficina](#ejercicio-7-oficina)
+
+# Taller Modelo Entidad Relación 3
+
 - [Ejercicio 1](#ejercicio-1)
 - [Ejercicio 2](#ejercicio-2)
 - [Ejercicio 3](#ejercicio-3)
 - [Ejercicio 4](#ejercicio-4)
-- [Ejercicio 5](#ejercicio-5)
-- [Ejercicio 6](#ejercicio-6)
-- [Ejercicio 7](#ejercicio-7)
-
-# Taller Modelo Entidad Relación 3
-
-- [Ejercicio 1](#ejercicio-1-1)
-- [Ejercicio 2](#ejercicio-2-1)
-- [Ejercicio 3](#ejercicio-3-1)
-- [Ejercicio 4](#ejercicio-4-1)
 
 # Primer Taller Grupal
 
@@ -36,6 +36,8 @@ En caso de no poder visualizar con claridad los modelos ¡puedes hacer click en 
 - [Ejercicio Eat'n Go](#ejercicio-eatn-go)
 
 ## Primeros ejercicios
+
+- Realizado el 19 de Febrero de 2026
 
 ## Ejercicio "Biblioteca"
 
@@ -105,10 +107,13 @@ juego, tarjetas amarillas/rojas por cada jugador y las posiciones de la tabla en
 
 ## Taller Modelo Entidad Relación 1
 
-## Ejercicio 1
+- Realizado el 24 de Febrero de 2026
+- Si se desea ver con más detalles los ejercicios desarrollados, puede acceder al siguiente link [aquí](https://lucid.app/lucidchart/d3bb5c5e-0337-4185-a34e-8f40a6f41079/edit?viewport_loc=-52610%2C-32651%2C34387%2C17237%2C0_0&invitationId=inv_8a9ad474-9464-4208-b49d-0dccffdd550e)
+
+## Ejercicio 1 (Transporte)
 
 Se desea informatizar la gestión de una empresa de transportes que reparte paquetes por toda Colombia. Los encargados de llevar los paquetes son los Conductores, de los que se quiere guardar el número de cédula de ciudadanía, nombre, teléfono, dirección, salario y ciudad en la que vive. De los paquetes transportados interesa conocer el código de paquete, descripción, destinatario y dirección del destinatario. Un conductor distribuye muchos paquetes, y un paquete sólo puede ser distribuido por un conductor. De las ciudades a las que llegan los paquetes interesa guardar el código de ciudad y el nombre. Un paquete sólo puede llegar a una ciudad. Sin embargo, a una ciudad pueden llegar varios paquetes. De los camiones que llevan los Conductores, interesa conocer la matrícula, modelo, tipo y potencia. Un conductor puede conducir diferentes camiones en fechas diferentes, y un camión puede ser conducido por varios Conductores.
-Constrúyase un diagrama E-R. Indique cuáles son las entidades identificadas con los atributos, llaves primarias y llaves foráneas de cada una. Realice la reducción a tablas respectiva y documente todas las decisiones que se hagan acerca de restricciones de correspondencia.
+Constrúyase un modelo E-R. Indique cuáles son las entidades identificadas con los atributos, llaves primarias y llaves foráneas de cada una. Realice la reducción a tablas respectiva y documente todas las decisiones que se hagan acerca de restricciones de correspondencia.
 
 ### Solución
 
@@ -122,7 +127,7 @@ Constrúyase un diagrama E-R. Indique cuáles son las entidades identificadas co
   </a>
 </div>
 
-## Ejercicio 2
+## Ejercicio 2 (Bienes Raíces)
 
 Una empresa de bienes raíces realiza un seguimiento de las casas en venta y de los clientes que buscan comprar casas. Una casa en venta puede estar listada con esta firma o con otra diferente. Estar “listado” con una firma significa que el dueño de la casa tiene un contrato con un agente que trabaja para esa firma. Un agente de bienes raíces de la empresa se caracteriza por tener un nombre (compuesto por Primer nombre, Segundo Nombre, Primer Apellido y Segundo Apellido), cédula de ciudadanía, género, fecha de nacimiento (sobre la cual se obtiene la edad), una cantidad de ventas realizadas en el último mes y un código de agente único. Cada casa en el mercado tiene precio, dirección, propietario y una lista de características, como el número de dormitorios, baños, tipo de calefacción, electrodomésticos, tamaño del garaje, etc. Esta lista puede ser diferente para diferentes casas, y algunas características pueden estar presentes en algunas casas, pero faltar en otras. Asimismo, cada cliente tiene preferencias que se expresan en los mismos términos (el número de dormitorios, baños, etc.). Aparte de estas preferencias, los clientes especifican el rango de precios de las casas que les interesan.
 
@@ -138,7 +143,7 @@ Una empresa de bienes raíces realiza un seguimiento de las casas en venta y de 
   </a>
 </div>
 
-## Ejercicio 3
+## Ejercicio 3 (Proveedor)
 
 Considere el siguiente esquema de base de datos (estructura de tablas y relaciones):
 •
@@ -153,7 +158,7 @@ Pedido (CName, SName, ItemName, Qty): el cliente CName ha pedido la cantidad del
 •
 Elemento (ItemName, Description): información sobre los elementos.
 
-Dibuje el diagrama E-R del que podría haberse derivado el esquema anterior
+Dibuje el modelo E-R del que podría haberse derivado el esquema anterior
 
 ### Solución
 
@@ -167,9 +172,9 @@ Dibuje el diagrama E-R del que podría haberse derivado el esquema anterior
   </a>
 </div>
 
-## Ejercicio 4
+## Ejercicio 4 (Biblioteca)
 
-Realizar el diseño conceptual (mediante un diagrama E-R) de las operaciones de una biblioteca comunitaria local. La biblioteca tiene libros, CD, cintas, etc., que se prestan a diferentes usuarios. Estos últimos cuentan con un número de cuenta único, direcciones, números telefónicos, fecha de nacimiento, entre otros. Si un artículo prestado está vencido (por fuera de la fecha límite de entrega), acumula penalización. Algunos usuarios son menores de edad (menores a 18 años), por lo que deben tener patrocinadores que sean responsables de pagar las multas (o reemplazar un libro en caso de pérdida).
+Realizar el diseño conceptual (mediante un modelo E-R) de las operaciones de una biblioteca comunitaria local. La biblioteca tiene libros, CD, cintas, etc., que se prestan a diferentes usuarios. Estos últimos cuentan con un número de cuenta único, direcciones, números telefónicos, fecha de nacimiento, entre otros. Si un artículo prestado está vencido (por fuera de la fecha límite de entrega), acumula penalización. Algunos usuarios son menores de edad (menores a 18 años), por lo que deben tener patrocinadores que sean responsables de pagar las multas (o reemplazar un libro en caso de pérdida).
 
 ### Solución
 
@@ -183,7 +188,7 @@ Realizar el diseño conceptual (mediante un diagrama E-R) de las operaciones de 
   </a>
 </div>
 
-## Ejercicio 5
+## Ejercicio 5 (Supermercado)
 
 Una cadena de supermercados está interesada en construir un sistema de apoyo a la decisión con el que pueda analizar las ventas de diferentes productos en diferentes supermercados en diferentes momentos. Cada supermercado está ubicado en área geográfica: una ciudad, que está en un estado, que está en una región. El tiempo en el que realizó una o más ventas se puede medir en días, meses y años. Los productos tienen nombres y categorías (productos, productos enlatados, etc.).
 
@@ -199,9 +204,9 @@ Una cadena de supermercados está interesada en construir un sistema de apoyo a 
   </a>
 </div>
 
-## Ejercicio 6
+## Ejercicio 6 (Banco)
 
-Considere el siguiente diagrama E-R:
+Considere el siguiente modelo E-R, y describa el contexto que representa:
 
 <div style="text-align:center;">
   <a href="/images/ModeloTaller1_6.jpg" target="_blank">
@@ -218,10 +223,20 @@ Considere el siguiente diagrama E-R:
 Es una empresa de prestamo de sucursales, identificadas principalmente por el nombre de la sucrusal, pero también se tiene la información de la ciudad de la misma y de si esta se encuentra activa. Los clientes se distinguen en el sistema principalmente por su id y a su vez, se registra su nombre, ciudad y calle; a estos se les concede un prestamo, identificado por su número único, y registrando su valor de importación. Estos clientes son previamente aconsejados por un empleado, identificado en sistema principalmente por su id, más también se registra su nombre, números de teléfono, el nombre de su o sus subordinados (En caso de que su rol sea de jefe), su fecha de ingreso y la antigüedad del mismo, adicionalmente, este puede ser un banquero o consejero, y le responde a un jefe.
 Al momento de realizar un prestamo, se debe realizar un pago, reconocido en sistema principalmente por su número de pago, se toma la fecha de pago y el importe pagado. No obstante, a los clientes se les impone, con fecha de acceso, una cuenta, establecida por su número de cuenta, junto con su saldo su saldo y el tipo de cuenta, donde si es una cuenta de ahorros, se registra su tipo de interés, en caso de ser cuenta corriente, se registra su descubrimiento.
 
-## Ejercicio 7
+## Ejercicio 7 (Oficina)
 
-Una oficina de registro de una universidad mantiene datos acerca de las siguientes entidades: (a) asignaturas, incluyendo el número, título, programa, y prerrequisitos; (b) ofertas de asignaturas, incluyendo número de asignatura, año, semestre, número de sección,
-profesor(es), horarios y aulas; (c) estudiantes, incluyendo id-estudiante, nombre y programa; y (d) profesores, incluyendo número de identificación, nombre, departamento y título. Además, la matrícula de los estudiantes en asignaturas y las notas concedidas a estudiantes en cada asignatura en la que están matriculados se deben modelar adecuadamente. Constrúyase un diagrama E-R para la oficina de registro.
+Una oficina de registro de una universidad mantiene datos acerca de las siguientes entidades:
+
+(a) asignaturas, incluyendo el número, título, programa, y prerrequisitos
+
+(b) ofertas de asignaturas, incluyendo número de asignatura, año, semestre, número de sección,
+profesor(es), horarios y aulas
+
+(c) estudiantes, incluyendo id-estudiante, nombre y programa
+
+(d) profesores, incluyendo número de identificación, nombre, departamento y título. Además, la matrícula de los estudiantes en asignaturas y las notas concedidas a estudiantes en cada asignatura en la que están matriculados se deben modelar adecuadamente.
+
+Constrúyase un modelo E-R para la oficina de registro.
 
 ### Solución
 
@@ -236,6 +251,9 @@ profesor(es), horarios y aulas; (c) estudiantes, incluyendo id-estudiante, nombr
 </div>
 
 ## Taller Modelo Entidad Relación 3
+
+- Realizado el 10 de Marzo de 2026
+- Si se desea ver con más detalles los ejercicios desarrollados, puede acceder al siguiente link [aquí](https://lucid.app/lucidchart/d3bb5c5e-0337-4185-a34e-8f40a6f41079/edit?viewport_loc=-52610%2C-32651%2C34387%2C17237%2C0_0&invitationId=inv_8a9ad474-9464-4208-b49d-0dccffdd550e)
 
 ## Ejercicio 1
 
@@ -369,9 +387,13 @@ Productoras: Toda grabación está asociada a una productora. Se debe registrar 
 
 # Primer Taller Grupal
 
+- Realizado el 10 de Marzo de 2026
+
 # Ejercicio Nómina
 
 En base al siguiente esquema, crear un modelo E-R:
+
+- Si se desea ver con más detalle el desarrollo de este ejercicio, puede acceder al siguiente link [aquí](https://lucid.app/lucidchart/e58bbd27-d930-4d89-ac34-ec7f9a964bb6/edit?viewport_loc=-566%2C-311%2C5445%2C2729%2C0_0&invitationId=inv_fe10fafd-32de-4f47-85ad-5a0cffe35aa7)
 
 <div style="text-align:center;">
   <a href="/images/Ejercicio Nomina.jpeg" target="_blank">
@@ -434,6 +456,8 @@ En base al siguiente esquema, crear un modelo E-R:
 </div>
 
 # Ejercicio Residuos Tóxicos
+
+- Si se desea ver con más detalle el desarrollo de este ejercicio, puede acceder al siguiente link [aquí](https://lucid.app/lucidchart/c15b9891-278a-4a65-9eb9-77604119b706/edit?viewport_loc=-1249%2C-2153%2C9937%2C4981%2C0_0&invitationId=inv_d824a2f6-0878-4ae2-8e9b-3ed8be63bde0)
 
 Se desea abordar la problemática ambiental de los residuos tóxicos y peligrosos cuya incorrecta gestión produce daños de gran importancia en el medio ambiente y en la salud del ser humano. La información a contemplar es la que corresponde desde que es producido el residuo por un centro o empresa productora hasta que éste se encuentra en lugar seguro, en donde recibe un tratamiento especial como puede ser la incineración, almacenamiento en depósitos de seguridad, etc. En el sistema de información se desea considerar la información de los productores de residuos, los residuos, las empresas que transportan los residuos hasta los lugares seguros y el traslado de los residuos teniendo en cuenta el tipo de transporte, el envase, etc.Es conveniente tener en cuenta los siguientes supuestos semánticos:
 
@@ -507,6 +531,8 @@ SUPUESTO 9: Es interesante conocer la fecha de llegada a destino y el tratamient
 
 # Ejercicio Eat'n Go
 
+- Si se desea ver con más detalle el desarrollo de este ejercicio, puede acceder al siguiente link [aquí](https://lucid.app/lucidchart/35464629-7b35-4bea-a397-fc3fc6426ea6/edit?viewport_loc=-3107%2C-414%2C8786%2C4404%2C0_0&invitationId=inv_fe32f359-6250-4ffd-b106-9855979160c8)
+
 Eat'n Go, una empresa internacional dedicada a la comercialización de comidas rápidas, tiene la intención de ubicar una franquicia en nuestra localidad, siéndole necesario informatizar la gestión del negocio adaptándolo a las características propias de la clientela esperada. Esta empresa se dedica a la venta de pizzas y bocadillos, además de productos complementarios como refrescos, helados, etc.Según las especificaciones aportadas por esta empresa se sabe que:
 
 SUPUESTO 1: Tanto las pizzas como los bocadillos pueden condimentarse con un número de ingredientes de entre un conjunto de ellos con los que trabaja la empresa.
@@ -574,9 +600,9 @@ SUPUESTO 18: La empresa cuenta con una serie de pizzas y bocadillos "estrellas",
 ## Modelo Entidad Relación con notación Barker
 
 <div style="text-align:center;">
-  <a href="/images/Eat_NGo_MER_CF.png" target="_blank">
+  <a href="/images/Eat_NGo_MER_CF.jpeg" target="_blank">
     <img 
-      src="/images/Eat_NGo_MER_CF.png"
+      src="/images/Eat_NGo_MER_CF.jpeg"
       width="700"
       style="border-radius:12px;"
     />
